@@ -1,0 +1,155 @@
+.lesson-plan {
+  display: grid;
+  grid-template-columns: 1cm 3cm 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: repeat(11, auto);
+  width: 100%;
+  height: fit-content;
+  border: 0.01mm solid black;
+  position: relative;
+}
+
+.lesson-plan > div:first-child {
+  grid-column: span 2;
+}
+
+.lesson-plan > div {
+  display: flex;
+  border: 1px solid black;
+  padding: 1mm;
+}
+
+.lesson-plan .table-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.lesson-plan .first-column {
+  justify-content: flex-end;
+}
+
+.lesson-plan .cell {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lesson-plan .cell > span {
+  pointer-events: none;
+}
+
+.lesson-plan .cell:hover, .selected {
+  background: lightblue;
+  cursor: default;
+}
+
+.lesson-plan .time-frame {
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 0.5cm 1fr;
+}
+
+.lesson-plan .time-frame > span:first-child {
+  text-align: right;
+}
+
+.lesson-plan .time-frame > span:nth-child(2) {
+  text-align: center;
+}
+
+.editor {
+  width: 200px;
+  background: #fff;
+  z-index: 1;
+  position: absolute;
+  top: 1cm;
+  left: 50%; /* Center the element horizontally */
+  transform: translateX(-50%); /* Center the element horizontally */
+  border: 1px solid lightblue;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .6);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  border-radius: 8px;
+}
+
+.editor::before {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #ffffff;
+  vertical-align: middle;
+  position: absolute;
+  left: 50%;
+  top: -8px;
+  transform: translateX(-50%);
+  z-index: 2; /* Keep it on top */
+}
+
+.editor::after {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 9px solid rgba(0, 0, 0, 0.1);
+  vertical-align: middle;
+  position: absolute;
+  left: 50%;
+  top: -10px;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.editor label {
+  display: flex;
+  width: 100%;
+}
+
+.editor input {
+  display: flex;
+  width: 100%;
+}
+
+.editor footer {
+  display: flex;
+  width: 100%;
+  justify-content: right;
+  gap: 2px;
+  margin-top: 4px;
+}
+
+.editor header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  background: #f1e9e9;
+  border-radius: 4px;
+  margin-bottom: 4px;
+}
+
+.editor header > button {
+  border: none;
+}
+
+.editor header > div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 8px;
+  width: 100%;
+}
+
+label{
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  padding: 0 10px 0 4px;
+}

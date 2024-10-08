@@ -1,0 +1,128 @@
+[
+  {
+    "day": 0,
+    "timeFrameId": 4,
+    "subject": "zajęcia ind.",
+    "classRoom": ""
+  },
+  {
+    "day": 0,
+    "timeFrameId": 5,
+    "subject": "zajęcia ind.",
+    "classRoom": ""
+  },
+  {
+    "day": 0,
+    "timeFrameId": 6,
+    "subject": "mat.",
+    "classRoom": "B5"
+  },
+  {
+    "day": 1,
+    "timeFrameId": 3,
+    "subject": "j. ang.",
+    "classRoom": "B5"
+  },
+  {
+    "day": 1,
+    "timeFrameId": 4,
+    "subject": "przyr.",
+    "classRoom": "B5"
+  },
+  {
+    "day": 1,
+    "timeFrameId": 5,
+    "subject": "muz.",
+    "classRoom": "B5"
+  },
+  {
+    "day": 1,
+    "timeFrameId": 6,
+    "subject": "rew.",
+    "classRoom": "R1"
+  },
+  {
+    "day": 2,
+    "timeFrameId": 4,
+    "subject": "inf.",
+    "classRoom": "B5"
+  },
+  {
+    "day": 2,
+    "timeFrameId": 5,
+    "subject": "j. ang",
+    "classRoom": "B5"
+  },
+  {
+    "day": 2,
+    "timeFrameId": 6,
+    "subject": "zaj. rozw.",
+    "classRoom": "B5"
+  },
+  {
+    "day": 2,
+    "timeFrameId": 7,
+    "subject": "zajęcia ind.",
+    "classRoom": ""
+  },
+  {
+    "day": 3,
+    "timeFrameId": 1,
+    "subject": "zajęcia. ind.",
+    "classRoom": ""
+  },
+  {
+    "day": 3,
+    "timeFrameId": 2,
+    "subject": "zajęcia. ind.",
+    "classRoom": ""
+  },
+  {
+    "day": 3,
+    "timeFrameId": 3,
+    "subject": "basen",
+    "classRoom": ""
+  },
+  {
+    "day": 3,
+    "timeFrameId": 4,
+    "subject": "basen",
+    "classRoom": ""
+  },
+  {
+    "day": 3,
+    "timeFrameId": 5,
+    "subject": "społ",
+    "classRoom": "R5"
+  },
+  {
+    "day": 3,
+    "timeFrameId": 6,
+    "subject": "rew",
+    "classRoom": "R4"
+  },
+  {
+    "day": 4,
+    "timeFrameId": 1,
+    "subject": "religia",
+    "classRoom": "B5"
+  },
+  {
+    "day": 4,
+    "timeFrameId": 2,
+    "subject": "mat.",
+    "classRoom": "B5"
+  },
+  {
+    "day": 4,
+    "timeFrameId": 3,
+    "subject": "j. pol.",
+    "classRoom": "B5"
+  },
+  {
+    "day": 4,
+    "timeFrameId": 4,
+    "subject": "wf",
+    "classRoom": "F"
+  }
+]
